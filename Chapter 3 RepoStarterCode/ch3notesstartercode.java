@@ -33,13 +33,36 @@ public static void main (String [] args)
 
     if(word2.compareTo(word3)<0)
         System.out.println(word2 +" is before " + word3  );
+        
+    if (word3.equals("Dog")) // don't but semicolon after if statement., it ends the if statement
+        System.out.print(word3+"=" + "Dog");
 /*
 
       int num = 5, num1 =10, num2 = 4;  // standard hours in a work week
 
       System.out.print ("Enter a number ");
       num = Keyboard.nextInt();
-
+/**      
+      //ORDER IS IMPORTANT
+      
+      if (num < 1000) //if condition is true will exe
+      {
+         System.out.print("Your score is average");
+      }
+      else if (num <2000) //condition is false will execute
+         System.out.print("Your Score is Good"); 
+      else if (num < 500)
+        System.out.print("Your Score is Low");
+ /**     
+      
+      if (num < 1000) //if condition is true will exe
+      {
+         System.out.print(true);
+         System.out.print(true); // multi lines need brackets
+      }
+      else //condition is false will execute
+         System.out.print(false); //if you have one line it will match if else
+/**
        System.out.print ("Enter a  second number ");
        num1 = Keyboard.nextInt();
 
