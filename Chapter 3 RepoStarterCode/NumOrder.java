@@ -13,7 +13,16 @@ public class NumOrder
    {
       Scanner in = new Scanner(System.in);
       System.out.print("Enter three numbers: ");
-      
-
+     
+      int one = in.nextInt();
+      int two = in.nextInt();
+      int three = in.nextInt();
+     
+      if (one<two && two<three)
+        System.out.println("Increasing order");
+      else if (three<two && two<one)
+        System.out.println("Decreasing order");
+      else
+        System.out.println("neither");
    }
 }
