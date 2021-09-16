@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SeasonsDemo
+comment0.text=\r\n\ \ \ This\ program\ calculates\ the\ season\ for\ a\ given\ month\ and\ day.\r\n\ \ \ \r\n\ \ \ spring\ runs\ from\ March\ 1\ to\ May\ 31;\r\nsummer\ runs\ from\ June\ 1\ to\ August\ 31;\r\nfall\ (autumn)\ runs\ from\ September\ 1\ to\ November\ 30;\ and\r\nwinter\ runs\ from\ December\ 1\ to\ February\ 28\ (February\ 29\ in\ a\ leap\ year).\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
