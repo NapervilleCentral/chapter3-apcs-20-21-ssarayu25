@@ -2,6 +2,7 @@
 Sarayu Suresh
 9/17/21
 leap year tester
+Checks to see if entered year is a leap year
 **/
 
 import java.util.Scanner;

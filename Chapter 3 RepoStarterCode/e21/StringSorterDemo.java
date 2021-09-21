@@ -17,8 +17,10 @@ public class StringSorterDemo
       String str2 = in.next();
       String str3 = in.next();
       // . . .  your code here
-      if (str1.compareTo(str2) > 0)
-        System.out.print("");
+      if (str1.compareTo(str2) < 0 && str2.compareTo(str3) < 0)
+        small = str1;
+        middle = str2;
+        large = str3;
       System.out.println("Smalest is"+ small + "\n"
       + "In the Middle is" + middle+ "\n"
       + "The Largest is" + large);
