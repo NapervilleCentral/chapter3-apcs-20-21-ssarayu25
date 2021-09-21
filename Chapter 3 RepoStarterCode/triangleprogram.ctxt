@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=triangleprogram
-comment0.text=\r\n\ Sarayu\ Suresh\r\n\ 9/21/21\r\n\ triangleprogram\r\n\ Given\ the\ lengths\ of\ three\ sides\ of\ a\ triangle,\ print\ whether\ the\ triangle\ is\ scalene,\ isosceles,\ or\ equilateral.\r\n
+comment0.text=\n\ Sarayu\ Suresh\n\ 9/21/21\n\ triangleprogram\n\ \n\ Give\ the\ user\ the\ option\ to\ enter\ sides\ or\ angles\ of\ the\ triangle.The\ lengths\ will\ test\ whether\ \n\ the\ triangle\ is\ scalene,\ isosceles,\ or\ equilateral.The\ angles\ will\ test\ to\ see\ if\ it\ is\ a\ right,\ \n\ isosceles\ or\ equilateral.\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
