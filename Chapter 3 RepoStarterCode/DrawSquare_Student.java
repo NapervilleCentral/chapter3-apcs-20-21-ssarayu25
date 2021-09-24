@@ -1,6 +1,3 @@
-
-
-
 import TurtleGraphics.StandardPen;
 import java.util.Random;
 import java.awt.*;
@@ -54,14 +51,14 @@ public static void main(String[] args)
     pen.move(300);
     pen.down();
     
-    pen.move(130);
-    pen.turn(24);
+    pen.move(100);
+    pen.turn(120);
     
-    pen.move(150);
-    pen.turn(59);
+    pen.move(100);
+    pen.turn(120);
     
-    pen.move(60);
-    pen.turn(97);
+    pen.move(100);
+    pen.turn(120);
     
     
 
