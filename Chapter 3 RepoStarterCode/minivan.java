@@ -43,13 +43,13 @@ public class minivan
             }
             
             
-            if (left == '1' && right == '1')
+            if (left == 1 && right == 1)
                 System.out.println("The right door is open and the left door is open.");
-            else if (left == '1' && right == '0')
+            else if (left == 1 && right == 0)
                 System.out.println("The right door is closed and the left door is open.");
-            else if (left == '0' && right == '1')
+            else if (left == 0 && right == 1)
                 System.out.println("The right door is open and the left door is closed.");
-            else if (left == '0' && right == '0')
+            else if (left == 0 && right == 0)
                 System.out.println("The right door is closed and the left door is closed.");
     }
 
