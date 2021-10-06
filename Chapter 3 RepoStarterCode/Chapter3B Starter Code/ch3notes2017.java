@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 import java.io.*;       //for File IO
 
-public class ch3notes
+public class ch3notes2017
 {
     Integer one = 1;
     enum Classes  {CalculusAB, English, SpanishIII, Gym, Lunch, APCS, APush, Photo}
@@ -26,7 +26,7 @@ public class ch3notes
        Scanner Keyboard = new Scanner(System.in);
        DecimalFormat fmt = new DecimalFormat ("0.###");
        Integer two = 2;
-       /*
+       /**/
        Week today = Week.Tuesday;
        Week realtoday = Week.Thursday;
        
@@ -39,6 +39,20 @@ public class ch3notes
                           "Thomas", "Charlie",
                           "heinz doofenshmirtz", "Michael",
                           "NoOne", "Bueller","Justin","David"};
+                          
+       //enter a number to stop
+       String Number;
+       int num, total = 0;
+       for (int i = 0; i<5; i ++)
+       {
+           System.out.print("Enter a Number: ");
+           Number =  Keyboard.next(); //"5"
+           num = Integer.parseInt(Number); //convert
+           total += num;
+        }
+        //enter Q to stop
+        //while(!Numberequals("Q")) 
+       
     /*
         System.out.println("You scedule is:");
         // new for loop to use with iterators
@@ -85,7 +99,7 @@ public class ch3notes
     System.out.println("After the loop \n k= " +k +"\tj= " +j);
 
 
-/*
+/**/
     // Scanner file i/o defaults at the space
     //relative path
     //MUST BE IN THE SAME DIRECTORY/FOLDER AS THIS FILE
@@ -105,14 +119,18 @@ public class ch3notes
     }
     /*
     String word;
+    int total = 0;
      while(scanFile2.hasNext())
     {
         word = scanFile2.next();
         System.out.println(word);
+        
+        if (word.equals("ISIS") || word.equals("Isis,"))
+            total ++;
 
     }
 
-
+    System.out.println("job was said" + total + "times");
 
 
 
@@ -206,12 +224,3 @@ public class ch3notes
    }// end of main
 
 }// end of class
-
-
-
-
-
-
-
-
-
