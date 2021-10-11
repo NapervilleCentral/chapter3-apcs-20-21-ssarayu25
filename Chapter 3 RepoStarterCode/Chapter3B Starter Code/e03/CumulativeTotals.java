@@ -6,7 +6,7 @@ public class CumulativeTotals
    {
       double sum = 0.0;
       Scanner in = new Scanner(System.in);
-
+//enter set of numbers until Q
 
    }
 }
