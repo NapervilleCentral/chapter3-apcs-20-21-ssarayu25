@@ -18,7 +18,9 @@ public class program3_5
     {
         Scanner in = new Scanner(System.in);
         
-        System.out.println("Enter a Sentence, and it will be printed one character at a time");
+        
+        //one char per line
+        System.out.println("Enter a Sentence, and it will be printed one character at a time (\".\" signifies end of sentence)");
         char character = ' ';
         
         while(character != '.')
@@ -32,6 +34,26 @@ public class program3_5
             }
             
         }
+        
+        
+        //one char at time in reverse
+        System.out.println("Enter a Sentence, and it will be printed one character at a time backwards (\".\" signifies end of sentence)");
+        char condition = ' ';
+        while(condition != '.')
+        {
+            String input = in.next();
+            
+            for (int i = input.length(); i > 0; i--)
+            {
+                character = input.charAt(i-1);
+                System.out.println(character);
+                if (character == '.')
+                    condition = '.';
+            }
+            
+        }
+        
+        
         
     }
     
