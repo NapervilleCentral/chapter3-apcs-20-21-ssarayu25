@@ -25,7 +25,7 @@ public class program3_12
         
         for (int i = 1; i < 11; i++)
         {
-            for (int j = 0; j <
+            //for (int j = 0; j < 
         }
         }
 }
