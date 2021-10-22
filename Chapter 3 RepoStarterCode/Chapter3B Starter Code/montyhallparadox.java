@@ -20,31 +20,25 @@ public class montyhallparadox
         Random generator = new Random();
         int car; //door with car
         int player; // door player chose
-        int monty; // door monty chose
-        int a; //counter for method A (player stays with the same door)
-        int b; //counter for method B (player switches
+        int a = 0; //counter for method A (player stays with the same door)
+        int b = 0; //counter for method B (player switches
         
         for (int i = 1; i <=1000; i++) // for loop that runs 1000 times
         {
             //generating numbers between 1-3
-            car = generator.nextInt(4)-1;
-            player = generator.nextInt(4)-1;
+            car = generator.nextInt(3)-1;
+            player = generator.nextInt(3)-1;
             
-            //choosing which door monty opens
-            //cannot be the smae as the one with the car, and can't be the same as the one the player chosee
-            if (car!=1 && car!=1)
-                monty = 1;
-            else if (car!=2 && car!=2)
-                monty = 2;
-            else if (car!=3 && car!=3)
-                monty = 3;
             
-            //method a player stays with the same door
-            
+            //method a: player stays with the same door
             if (car == player)
-                {}
-          
+                a++;
+            else //method b: player changes door (if the door the player chose isn't right the one they switch to is right) 
+                b++;
         }
+        
+        System.out.println("Method A Wins: " + a);
+        System.out.println("Method B Wins: " + b);
         
 }
 }
