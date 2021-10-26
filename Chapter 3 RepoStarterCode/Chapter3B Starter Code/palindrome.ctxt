@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=palindrome
-comment0.text=\n\ checks\ if\ a\ string\ is\ a\ palindrome\n\n\ Sarayu\ Suresh\n\ 10/25/21\n
+comment0.text=\r\n\ checks\ if\ a\ string\ is\ a\ palindrome\r\n\ Sarayu\ Suresh\r\n\ 10/25/21\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
