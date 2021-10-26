@@ -16,14 +16,32 @@ public class palindrome
         char char1 = 'a';
         char char2 = 'b';
         int counter = 0;
-        for (int i = 0; i < input.length() && char1 != char2; i++)
+        boolean palindrome = true;
+        String goodinput = "";
+        for (int i = 0; i < input.length(); i++)
         {
-             char1 = input.charAt(i);
-             char2 = input.charAt(input.length()-i-1);
-             counter ++;
+            char character = input.charAt(i);
+            if (character != ' ')
+            {
+                if (character >= 65 && character <= 90)
+                 character = (char)((int)character + 32);
+                goodinput = goodinput + character;
+            }    
+                 
+        }
+        for (int i = 0; i < goodinput.length()/2; i++)
+        {
+             char1 = goodinput.charAt(i);
+             char2 = goodinput.charAt(goodinput.length()-i-1);
+             
+             if (char1 != char2)
+             {
+                 palindrome = false;
+                 break;
+                }   
         }
         
-        if (counter > (input.length()/2))
+        if (palindrome)
             System.out.println("This is a palindrome");
         else
             System.out.println("This is not a palindrome");
