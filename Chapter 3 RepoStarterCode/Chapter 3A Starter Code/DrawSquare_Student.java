@@ -13,10 +13,7 @@ public static void main(String[] args)
     //without drawing and points north
     pen.up();
     pen.home();
-    pen.move(25);
-    pen.turn(90);
-    pen.move(25);
-    pen.down();
+    
     
     pen.setColor(Color.black);
     //square
