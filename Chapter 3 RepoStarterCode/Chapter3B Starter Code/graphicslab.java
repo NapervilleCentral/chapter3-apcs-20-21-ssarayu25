@@ -3,7 +3,7 @@ import java.util.Random;
 import java.awt.*;
 import java.lang.Math.*; 
 /*
- * makes a four leaf rose, drunkards walk and spiral
+ * makes a four leaf rose, drunkards walk, spiral, fibbinocci
  * Sarayu Suresh
  * 10/26/21
  */
@@ -33,6 +33,7 @@ public class graphicslab
         */
         //drunk guy walk
         Random gen = new Random();
+        /*
         pen.up();
         pen.home();
         pen.down();
@@ -48,5 +49,9 @@ public class graphicslab
             //if its 4 it stays the same way, so no need to write that code
             pen.move(10); //it moves no matter which way he turns, every iteration
         }
+        */
+       
+       //fibonacci's sequence
+       
     }
 }
