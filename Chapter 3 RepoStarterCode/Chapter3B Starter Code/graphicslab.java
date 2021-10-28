@@ -2,6 +2,8 @@ import TurtleGraphics.StandardPen;
 import java.util.Random;
 import java.awt.*;
 import java.lang.Math.*; 
+import javafx.scene.control.Spinner;
+
 /*
  * makes a four leaf rose, drunkards walk, spiral, fibbinocci
  * Sarayu Suresh
@@ -37,7 +39,7 @@ public class graphicslab
         pen.up();
         pen.home();
         pen.down();
-        for (int i = 0; i < 100; i++) //runs
+        for (int i = 0; i < 100; i++) //runs 100 times
         {
             int turn = gen.nextInt(4); // random number from 0 to 3, which represts which way the guy turns
             if (turn == 0)
@@ -51,7 +53,61 @@ public class graphicslab
         }
         */
        
-       //fibonacci's sequence
-       
+       //spiral
+       /*
+        pen.up();
+        pen.home();
+
+        pen.setColor(Color.black);
+        pen.down();
+        for (int i = 10; i < 10000; i+=10)
+        {
+            pen.move(i);
+            pen.turn(90);
+    }
+    */
+    
+    //fibinacci 
+        int num1 = 1; 
+        int num2 = 1;
+        pen.home();
+        pen.down();
+        
+        int num = 1; //the current fibbinacci number
+        //draws square
+        pen.move(num * 10);
+        pen.turn(90);
+        pen.move(num * 10);
+        pen.turn(90);
+        pen.move(num * 10);
+        pen.turn(90);
+        pen.move(num * 10);
+        
+        
+        pen.move(num * 10);//num will be the same for second square
+        pen.turn(90);
+        pen.move(num * 10);
+        pen.turn(90);
+        pen.move(num * 10);
+        pen.turn(90);
+        pen.move(num * 10);
+        
+        for (int i = 0; i < (10); i++)
+        {
+            num = num1 + num2;
+            num1 = num2;
+            num2 = num; 
+ 
+            pen.move(num * 10);
+            pen.turn(90);
+            pen.move(num * 10);
+            pen.turn(90);
+            pen.move(num * 10);
+            pen.turn(90);
+            pen.move(num * 10);
+        }
+
+        
+        
     }
 }
