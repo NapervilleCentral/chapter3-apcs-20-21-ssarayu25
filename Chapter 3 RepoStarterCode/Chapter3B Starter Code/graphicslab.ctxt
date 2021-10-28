@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=graphicslab
-comment0.text=\r\n\ makes\ a\ four\ leaf\ rose\r\n\ Sarayu\ Suresh\r\n\ 10/26/21\r\n
+comment0.text=\n\ makes\ a\ four\ leaf\ rose,\ drunkards\ walk\ and\ spiral\n\ Sarayu\ Suresh\n\ 10/26/21\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
