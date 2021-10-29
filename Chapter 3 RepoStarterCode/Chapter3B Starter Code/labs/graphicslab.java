@@ -22,7 +22,7 @@ public class graphicslab
         
         //four leaf rose
         /*
-        for (double i = 0; i < 2*(Math.PI); i+=Math.PI/100) //goes in 100 steps from 0 to 2pi
+        for (double i = 0; i < 2*(Math.PI); i+=Math.PI/50) //goes in 100 steps from 0 to 2pi
         {
             double r = Math.cos(2*i);
             double x = r * Math.cos(i);
@@ -66,48 +66,10 @@ public class graphicslab
             pen.turn(90);
     }
     */
-    
-    //fibinacci 
-        int num1 = 1; 
-        int num2 = 1;
-        pen.home();
-        pen.down();
-        
-        int num = 1; //the current fibbinacci number
-        //draws square
-        pen.move(num * 10);
-        pen.turn(90);
-        pen.move(num * 10);
-        pen.turn(90);
-        pen.move(num * 10);
-        pen.turn(90);
-        pen.move(num * 10);
-        
-        
-        pen.move(num * 10);//num will be the same for second square
-        pen.turn(90);
-        pen.move(num * 10);
-        pen.turn(90);
-        pen.move(num * 10);
-        pen.turn(90);
-        pen.move(num * 10);
-        
-        for (int i = 0; i < (10); i++)
-        {
-            num = num1 + num2;
-            num1 = num2;
-            num2 = num; 
- 
-            pen.move(num * 10);
-            pen.turn(90);
-            pen.move(num * 10);
-            pen.turn(90);
-            pen.move(num * 10);
-            pen.turn(90);
-            pen.move(num * 10);
-        }
 
+        }
+        
         
         
     }
-}
+
