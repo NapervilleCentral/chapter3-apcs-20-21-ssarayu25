@@ -1,3 +1,5 @@
+package labs;
+
 import java.util.Scanner;
 /*
  * checks if a string is a palindrome

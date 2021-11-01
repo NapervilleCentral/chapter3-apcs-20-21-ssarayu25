@@ -1,3 +1,6 @@
+package labs;
+import java.util.Scanner;
+
 
 /**
  * Write a description of class stringmystery here.

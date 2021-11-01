@@ -1,3 +1,5 @@
+package labs;
+
 import TurtleGraphics.StandardPen;
 import java.util.Random;
 import java.awt.*;
@@ -9,7 +11,7 @@ import javafx.scene.control.Spinner;
  * Sarayu Suresh
  * 10/26/21
  */
-public class graphicslab
+public class graphicslabs
 {
     public static void main (String args[])
     {
