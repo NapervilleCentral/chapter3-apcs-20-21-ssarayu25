@@ -1,3 +1,5 @@
+package labs;
+
 
 /**
  * Write a description of class stringmystery here.

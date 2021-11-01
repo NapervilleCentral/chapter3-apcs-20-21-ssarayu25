@@ -1,3 +1,5 @@
+package labs;
+
 import TurtleGraphics.StandardPen;
 import java.util.Random;
 import java.awt.*;
