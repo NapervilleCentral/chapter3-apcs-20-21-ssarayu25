@@ -16,20 +16,24 @@ public class parksidesothertriangle
         System.out.println("enter size and seed (size first)");
         int size = gen.nextInt();
         int seed = gen.nextInt();
-        int y=0;
+          
         
-            for (int x = 0; x < size; x++)
+        for (int y = 0; y < size; y++)
+        {
+            for (int i = 0; i < y; i++)
+                System.out.print(" ");
+            int print = seed + y;
+            if (print > 9)
+                 print = print % 9;
+            for (int x = y; x < size; x++)
             {
-                
-                int print = y + seed;
-                y = x+1;
-                if (print != 9)
-                 System.out.print(print % 9);
-                else
-                 System.out.print(print);    
+                print = print + x;
+                if (print > 9)
+                 print = print % 9;
+                System.out.print(print);    
             }
             System.out.println();
-        
+        }
             
             }
         
