@@ -1,6 +1,6 @@
 package labs;
 
-import TurtleGraphics.StandardPen;
+//import TurtleGraphics.StandardPen;
 import java.util.Random;
 import java.awt.*;
 import java.lang.Math.*; 
@@ -15,10 +15,11 @@ public class graphicslabs
 {
     public static void main (String args[])
     {
+        /*
         StandardPen pen = new StandardPen();        
         pen.up();
         pen.home();
-        
+        */
 
         
         
