@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=stringmystery
-comment0.text=\n\ Write\ a\ description\ of\ class\ stringmystery\ here.\n\n\ Sarayu\ Suresh\n\ 10/21/21\n
+comment0.text=\r\n\ reviews\ a\ sequence\ of\ digits\ (your\ puzzle\ input)\ and\ find\ all\ digits\ that\ match\ the\ next\ digit\ in\ the\ list.\ \r\n\ then\ does\ the\ same\ thing\ but\ instead\ of\ using\ the\ next\ digit\ youuse\ the\ digit\ halfway\ around\ the\ circular\ list\r\n\ Sarayu\ Suresh\r\n\ 10/21/21\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
