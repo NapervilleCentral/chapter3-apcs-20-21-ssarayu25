@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=fileio
-comment0.text=\r\n\ analyze\ historical\ speeches\r\n\r\n\ sarayu\ suresh\r\n\ 11/1/21\r\n
+comment0.text=\n\ file\ i/o\ program\n\ analyze\ historical\ speeches\n\ sarayu\ suresh\n\ 11/1/21\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
