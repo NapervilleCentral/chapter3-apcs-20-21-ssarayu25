@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=parksidesothertriangle
-comment0.text=\n\ input\ size\ and\ seed\ to\ get\ last\ number\ in\ pattern\n\n\ sarayu\ suresh\n\ 10/30/21\n
+comment0.text=\n\ input\ size\ and\ seed\ to\ get\ parksides\ other\ triangle\n\ sarayu\ suresh\n\ 10/30/21\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
